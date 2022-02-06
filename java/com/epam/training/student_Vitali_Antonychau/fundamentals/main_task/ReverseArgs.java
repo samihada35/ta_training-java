@@ -8,9 +8,7 @@ public class ReverseArgs {
     public static void main(String[] args) {
 
         Scanner scannerForChoice = new Scanner(System.in);
-
-        System.out.println("Are you want to revert String (1) or revert Array(2)?");
-        int choice = scannerForChoice.nextInt();
+        int choice = 0;
 
         while (choice != 1 && choice != 2) {
             System.out.println("Are you want to revert String (1) or revert Array(2)?");
