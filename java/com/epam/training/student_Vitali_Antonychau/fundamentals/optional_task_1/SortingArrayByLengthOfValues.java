@@ -39,6 +39,5 @@ public class SortingArrayByLengthOfValues {
         for (int i = arrayOfSortedValues.toArray().length - 1; i >= 0; i--) {
             System.out.print(arrayOfSortedValues.get(i) + "  ");
         }
-
     }
 }
